@@ -25,6 +25,7 @@
                     </a>
                 </div>
             @endforeach
+            {{ $books->links() }}
         </div>
     </div>
 </body>
