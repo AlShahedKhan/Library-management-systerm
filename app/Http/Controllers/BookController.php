@@ -77,7 +77,7 @@ class BookController extends Controller
     // }
 
     public function index()
-{
+    {
     // Fetch a list of books from Open Library
     $response = Http::get('https://openlibrary.org/subjects/love.json?limit=100');
 
