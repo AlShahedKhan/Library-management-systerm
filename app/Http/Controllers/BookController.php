@@ -72,7 +72,7 @@ class BookController extends Controller
     //     } else {
     //         $books = [];
     //     }
-
+// 
     //     return view('books.index', ['books' => $books]);
     // }
 
@@ -100,7 +100,7 @@ class BookController extends Controller
             $perPage,
             $currentPage,
             ['path' => request()->url()]
-        
+
         );
     } else {
         $booksPaginated = new LengthAwarePaginator([], 0, 10);
